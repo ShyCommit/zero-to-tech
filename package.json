@@ -1,20 +1,20 @@
 {
-    "name":  "zero-to-tech",
-    "version":  "1.0.0",
-    "private":  true,
-    "type":  "module",
-    "description":  "闆跺埌鍏ㄦ爤 路 妯″潡 4.1 鐜颁唬鍓嶇绗竴姝モ€斺€旀ā鍧楀寲",
-    "scripts":  {
-                    "dev":  "vite",
-                    "build":  "vite build",
-                    "preview":  "vite preview",
-                    "deploy":  "vite build \u0026\u0026 gh-pages -d dist"
-                },
-    "devDependencies":  {
-                            "gh-pages":  "^6.3.0",
-                            "vite":  "^8.3.8"
-                        },
-    "dependencies":  {
-                         "animejs":  "^4.5.0"
-                     }
+  "name": "zero-to-tech",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Zero to Tech — 模块 4.1 现代前端第一步：模块化",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "vite build && gh-pages -d dist"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "vite": "^8.3.8"
+  },
+  "dependencies": {
+    "animejs": "^4.5.0"
+  }
 }
